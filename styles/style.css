@@ -5,7 +5,14 @@
 /* ----------------------
     common style
 ----------------------*/
-body {
+* {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+header,
+main {
     font-family: 'Poppins', sans-serif;
     max-width: 1240px;
     margin: 0 auto;
@@ -145,4 +152,47 @@ span {
     font-weight: 700;
     font-size: 18px;
     margin-left: 5px;
+}
+
+
+/* ----------------------
+    footer style
+----------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #0A0826;
+    padding: 30px 0;
+    color: white;
+}
+
+.footer-title {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: white;
+    font-family: cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.social-icons {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(24, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
