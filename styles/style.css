@@ -9,6 +9,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section,
+header {
+    margin-bottom: 7%;
+}
+
 h1 {
     font-weight: 700;
 }
@@ -49,4 +54,15 @@ p {
     border-radius: 41px;
     position: relative;
     top: 20px;
+}
+
+
+/* ----------------------
+    brand logo style
+----------------------*/
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
