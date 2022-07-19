@@ -5,7 +5,7 @@
 /* ----------------------
     common style
 ----------------------*/
-* {
+body {
     margin: 0;
 }
 
@@ -93,7 +93,7 @@ nav {
     top header style
 ----------------------*/
 .top-header-title {
-    font-size: 52px;
+    font-size: 50px;
 }
 
 .round-border {
@@ -227,4 +227,65 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* ----------------------
+    media queries
+----------------------*/
+/* mobile device */
+@media only screen and (max-width:992px) {
+
+    /* common style */
+    nav,
+    header,
+    main {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .half-width {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .half-width img {
+        width: 100%;
+    }
+
+    .left-margin {
+        margin-left: 0;
+    }
+
+    /* manu bar style */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-list ul {
+        flex-wrap: wrap;
+        column-gap: 30px;
+        justify-content: center;
+    }
+
+
+    /* brand logos style */
+    .logos {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    /* products style */
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
 }
