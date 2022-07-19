@@ -6,11 +6,10 @@
     common style
 ----------------------*/
 * {
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
+nav,
 header,
 main {
     font-family: 'Poppins', sans-serif;
@@ -18,8 +17,8 @@ main {
     margin: 0 auto;
 }
 
-section,
-header {
+header,
+section {
     margin-bottom: 13%;
 }
 
@@ -68,6 +67,28 @@ p {
     margin-left: 10px;
 }
 
+
+
+/* ----------------------
+    menu bar style
+----------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 100px 0;
+}
+
+.menu-list ul {
+    display: flex;
+    column-gap: 30px;
+}
+
+.menu-list ul li {
+    list-style: none;
+}
+
+
 /* ----------------------
     top header style
 ----------------------*/
@@ -102,6 +123,7 @@ p {
 
 .center-title {
     text-align: center;
+    margin-bottom: 3%;
 }
 
 .product {
@@ -152,6 +174,16 @@ span {
     font-weight: 700;
     font-size: 18px;
     margin-left: 5px;
+}
+
+.see-more-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: #E02C6D;
+    margin-top: 2%;
+    padding: 10px;
 }
 
 
