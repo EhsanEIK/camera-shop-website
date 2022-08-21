@@ -88,6 +88,15 @@ nav {
     list-style: none;
 }
 
+.menu-list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-list a:hover {
+    color: blue;
+}
+
 
 /* ----------------------
     top header style
